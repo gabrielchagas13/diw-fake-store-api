@@ -17,15 +17,15 @@ const AddProducts = ({ items, click, removeItem, setAddedItem }) => {
       <div className="left-side">
         <div className="check-out-container">
           <div className="check-out-print">
-            <h1 className="check-out-title">Shopping</h1>
+            <h1 className="check-out-title">Chagol the store</h1>
             {/* <p>{curDate}</p> */}
             <table>
               <thead>
                 <tr>
-                  <th>No.</th>
-                  <th className="table-item-title">Item Name</th>
-                  <th>Price</th>
-                  <th>Quantity</th>
+                  <th>Não</th>
+                  <th className="table-item-title">Nome do produto</th>
+                  <th>Preço</th>
+                  <th>Quantidade</th>
                 </tr>
               </thead>
               <tbody>
@@ -55,7 +55,7 @@ const AddProducts = ({ items, click, removeItem, setAddedItem }) => {
       <div className="right-side">
         <div className="right-side-header">
           <h1>
-            Shopping <span className="total-items">{items.length}</span>
+            Chagol the store <span className="total-items">{items.length}</span>
             {items.length <= 1 ? " item" : " items"}
           </h1>
           <button
@@ -83,7 +83,7 @@ const AddProducts = ({ items, click, removeItem, setAddedItem }) => {
           <div className="bar"></div>
           <div className="footer-head">
             <h4>Total :</h4>
-            <h1>${total}</h1>
+            <h1>R${total}</h1>
           </div>
           <div className="check-out">
             <button
@@ -92,7 +92,7 @@ const AddProducts = ({ items, click, removeItem, setAddedItem }) => {
                 items.length >= 1 && print();
               }}
             >
-              Check Out
+              Finalizar Compra
             </button>
           </div>
         </div>

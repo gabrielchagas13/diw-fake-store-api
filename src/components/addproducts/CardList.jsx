@@ -43,7 +43,7 @@ const CardList = ({ item, removeItem, setAddedItem, itemsArr }) => {
       <h4>{item.title}</h4>
       <hr />
       <div className="card-list-add-minu-body">
-        <p>Price : ${item.price}</p>
+        <p>Preço: {item.price} R$</p>
         <div className="plus-items-minu">
           <button
             className="plus-btn"

@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <header>
       <img className="header__logo" src={LoGo} alt="" />
-      <h1>Shopping</h1>
+      <h1>Chagol the store</h1>
+      <h1>Gabriel Chagas - Ciência da Computação - 803292 </h1>
     </header>
   );
 };
