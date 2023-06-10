@@ -19,3 +19,6 @@ Execute o comando npm install no terminal. Isso irá baixar e instalar todas as 
 
 Após a conclusão da instalação das dependências, execute o comando npm run dev no terminal. Isso iniciará o servidor de desenvolvimento e o aplicativo cliente será aberto em seu navegador padrão.
 
+# Caso tenha dificuldade entre no replit ! 
+
+Rode npm install e depois npm run dev, e pronto você consegue ver meu projeto : ) 
