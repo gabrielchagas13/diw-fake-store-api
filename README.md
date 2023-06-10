@@ -22,3 +22,9 @@ Após a conclusão da instalação das dependências, execute o comando npm run 
 # Caso tenha dificuldade entre no replit ! 
 
 Rode npm install e depois npm run dev, e pronto você consegue ver meu projeto : ) 
+
+
+# Repóstiorios
+
+Github: https://github.com/gabrielchagas13/diw-fake-store-api.git
+Replit: https://replit.com/@Gabriel-Chagas1/diw-fake-store-api
